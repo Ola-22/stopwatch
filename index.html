@@ -8,14 +8,25 @@
 </head>
 
 <body>
-    <div id="stopwatch">
-        <span id="hour">00</span><span id="minute">00</span><span id="second">00</span><span id="ms">00</span>
-        <br />
-        <button id="start">start</button>
-        <button id="stop">stop</button>
-        <button id="reset">reset</button>
-    </div>
+    <div class="main">
+        <div class="stopWatch">
+            <h1 class="box">stopwatch</h1>
+            <h1 class="label" id="hours">00</h1>
+            <span>Hours</span>
+            <h1 class="label" id="minutes">00</h1>
+            <span>Minutes</span>
+            <h1 class="label" id="seconds">00</h1>
+            <span>Seconds</span>
 
+        </div>
+
+
+        <div class="btnControl">
+            <button onclick="start()" id="start">Start</button>
+            <button onclick="stop()" id="stop">Stop</button>
+            <button onclick="reset()" id="reset">Reset</button>
+        </div>
+    </div>
     <script src="assets/js/main.js "></script>
 </body>
 

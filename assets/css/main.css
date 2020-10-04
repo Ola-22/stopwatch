@@ -5,37 +5,39 @@
 }
 
 body {
-    font-family: arial;
+    background: linear-gradient(rgb(89, 127, 197), rgb(95, 150, 85));
 }
 
-#stopwatch span {
-    background: #fff;
-    padding: 3px;
-    border-radius: 5px;
-    border: solid 2px #333;
-    margin: 3px;
+.main {
+    border: 1px solid rgb(163, 157, 157);
+    text-align: center;
+    width: 120vh;
+    margin: auto;
+    margin-top: 30vh;
+    height: 40vh;
+    line-height: 1.7;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.box {
+    margin-top: 20px;
+}
+
+.stopWatch .label {
     display: inline-block;
 }
 
-#stopwatch button:first-of-type {
-    margin-top: 25px;
-}
-
-#stopwatch button {
-    font-size: 20px;
-    -webkit-appearance: none;
-    border: solid 2px #333;
-    background: #fff;
-    color: #333;
-    border-radius: 5px;
+button {
     width: 100px;
-    margin-top: 5px;
-    transition: .3s;
-}
-
-#stopwatch button:hover {
-    border: solid 2px #fff;
-    background: #333;
+    padding: 8px;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.192);
     color: #fff;
-    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
 }
